@@ -57,5 +57,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# PixelLauncher
+$(call inherit-product-if-exists, vendor/pixellauncher/wenmonet.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
