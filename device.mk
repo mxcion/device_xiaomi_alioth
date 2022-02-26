@@ -10,6 +10,10 @@ TARGET_IS_VAB := true
 # Audio
 TARGET_ENABLE_AUDIO_ULL := true
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
