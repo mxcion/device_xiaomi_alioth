@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The Potato Open Sauce Project
+# Copyright (C) 2022 ElytraOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -58,7 +58,14 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # PixelLauncher
-$(call inherit-product-if-exists, vendor/pixellauncher/wenmonet.mk)
+#$(call inherit-product-if-exists, vendor/pixellauncher/wenmonet.mk)
+
+# aospaLauncher
+#$(call inherit-product-if-exists, vendor/aospa/pixelwho.mk)
+
+# Pixel Doze
+#PRODUCT_PACKAGES += \
+#    PixelDoze
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
