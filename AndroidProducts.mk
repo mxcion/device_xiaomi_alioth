@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 AospExtended
+# Copyright (C) 2022 ElytraOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_alioth.mk
+    $(LOCAL_DIR)/elytra_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_alioth-user \
-    aosp_alioth-userdebug \
-    aosp_alioth-eng
+    elytra_alioth-user \
+    elytra_alioth-userdebug \
+    elytra_alioth-eng
