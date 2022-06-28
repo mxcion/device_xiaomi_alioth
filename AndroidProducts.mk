@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/elytra_alioth.mk
+    $(LOCAL_DIR)/wannabe_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    elytra_alioth-user \
-    elytra_alioth-userdebug \
-    elytra_alioth-eng
+    wannabe_alioth-user \
+    wannabe_alioth-userdebug \
+    wannabe_alioth-eng
